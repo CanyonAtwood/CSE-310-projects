@@ -51,13 +51,13 @@ class Board : JPanel(), ActionListener {
 
     private fun loadImages() {
 
-        val iid = ImageIcon("src/main/resources/dot.png")
+        val iid = ImageIcon("src/main/images/dot.png")
         ball = iid.image
 
-        val iia = ImageIcon("src/main/resources/apple.png")
+        val iia = ImageIcon("src/main/images/apple.png")
         apple = iia.image
 
-        val iih = ImageIcon("src/main/resources/head.png")
+        val iih = ImageIcon("src/main/images/head.png")
         head = iih.image
     }
 
@@ -255,13 +255,13 @@ private val y = IntArray(allDots)
 
 private fun loadImages() {
 
-    val iid = ImageIcon("src/main/resources/dot.png")
+    val iid = ImageIcon("src/main/images/dot.png")
     ball = iid.image
 
-    val iia = ImageIcon("src/main/resources/apple.png")
+    val iia = ImageIcon("src/main/images/apple.png")
     apple = iia.image
 
-    val iih = ImageIcon("src/main/resources/head.png")
+    val iih = ImageIcon("src/main/images/head.png")
     head = iih.image
 }
 
@@ -406,9 +406,3 @@ pack()
 
 
 
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/CanyonAtwood/CSE-310-projects.git
-git push -u origin main
