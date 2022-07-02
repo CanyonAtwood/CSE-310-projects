@@ -13,9 +13,9 @@
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+{I used a varitety of tools to develop this software. Mostly youtube videos and websites such as rust-lan.org/learn and a few blogs that had me follow along to build the snake game, but in my opinion I think that the youtube videos will work the best! Though for these instead of coding purely in rust you can adjust it for other IDE- since downloading multiple IDE's would be problamatic for me I used online IDE for this which I suggest you use as well!}
 
-{Describe the programming language that you used and any libraries.}
+{For this programming language i used Rustlang or Rust as it is most commonly known}
 
 # Useful Websites
 
